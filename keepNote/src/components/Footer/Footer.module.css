@@ -1,0 +1,20 @@
+.footer{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  background-color: black;
+  padding: 5px 15px;
+}
+
+.footerList{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.footerAnchor{
+  color: white;
+  font-size: 20px;
+}

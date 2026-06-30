@@ -1,0 +1,152 @@
+{
+  "notes": [
+    {
+      "id": "1",
+      "title": "Complete Assignment",
+      "description": "Finish and submit the math assignment before the deadline.",
+      "status": "yet-to-start",
+      "category": "Academic",
+      "priority": "High",
+      "userId": "1wzZg0BfqXY"
+    },
+    {
+      "id": "2",
+      "title": "Group Project Discussion",
+      "description": "Schedule a meeting with teammates to plan the science project.",
+      "status": "yet-to-start",
+      "category": "Project",
+      "priority": "Medium",
+      "userId": "1wzZg0BfqXY"
+    },
+    {
+      "id": "3",
+      "title": "Weekly Revision",
+      "description": "Review topics covered in class during the week.",
+      "status": "completed",
+      "category": "Academic",
+      "priority": "Low",
+      "userId": "1wzZg0BfqXY"
+    },
+    {
+      "id": "4",
+      "title": "Lab Report Submission",
+      "description": "Compile results and submit the chemistry lab report online.",
+      "status": "completed",
+      "category": "Academic",
+      "priority": "Medium",
+      "userId": 104
+    },
+    {
+      "id": "5",
+      "title": "Library Book Return",
+      "description": "Return borrowed books to the library before the due date.",
+      "status": "yet-to-start",
+      "category": "Admin",
+      "priority": "Medium",
+      "userId": 105
+    },
+    {
+      "id": "6",
+      "title": "Prepare for Test",
+      "description": "Study all chapters for the upcoming physics class test.",
+      "status": "yet-to-start",
+      "category": "Academic",
+      "priority": "High",
+      "userId": 106
+    },
+    {
+      "id": "7",
+      "title": "Class Notes Update",
+      "description": "Organize handwritten notes and upload them to Google Drive.",
+      "status": "completed",
+      "category": "Organization",
+      "priority": "Low",
+      "userId": 107
+    },
+    {
+      "id": "8",
+      "title": "Attend Seminar",
+      "description": "Participate in the online seminar on career opportunities.",
+      "status": "completed",
+      "category": "Career",
+      "priority": "Medium",
+      "userId": 108
+    },
+    {
+      "id": "9",
+      "title": "Project Presentation",
+      "description": "Create slides and rehearse for the history project presentation.",
+      "status": "yet-to-start",
+      "category": "Project",
+      "priority": "High",
+      "userId": 109
+    },
+    {
+      "id": "10",
+      "title": "Extracurricular Activity",
+      "description": "Practice for the annual sports meet scheduled next week.",
+      "status": "yet-to-start",
+      "category": "Extracurricular",
+      "priority": "High",
+      "userId": 110
+    },
+    {
+      "id": "7gHcDc5OA4A",
+      "title": "ugc net",
+      "description": "entrance examination",
+      "category": "phd entrance",
+      "priority": "High",
+      "status": "yet-to-start",
+      "userId": "ZsV9tIMJ6d8"
+    }
+  ],
+  "users": [
+    {
+      "firstName": "GULSHAN",
+      "lastName": "SOAM",
+      "email": "gulshansoam26@gmail.com",
+      "password": "Gulshan@1",
+      "gender": "Male",
+      "age": "010",
+      "phoneNumber": "9568365369",
+      "street": "31523",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "zipCode": "250342",
+      "role": "Admin",
+      "id": "1wzZg0BfqXY",
+      "phone": "9568365369"
+    },
+    {
+      "firstName": "Deepak",
+      "lastName": "Sachdeva",
+      "email": "gulshansoam@gmail.com",
+      "password": "Deepak@1",
+      "gender": "Female",
+      "age": "018",
+      "phoneNumber": "9568365369",
+      "street": "23451",
+      "city": "Meerut",
+      "state": "Uttar Pradesh",
+      "zipCode": "250342",
+      "role": "User",
+      "id": "ZsV9tIMJ6d8"
+    },
+    {
+      "firstName": "Gaurav",
+      "lastName": "Sharma",
+      "email": "gauravsharma@gmail.com",
+      "password": "Gaurav@12",
+      "gender": "Male",
+      "age": "10",
+      "phoneNumber": "8650627791",
+      "street": "31234",
+      "city": "Ghaziabad",
+      "state": "Uttar Pradesh",
+      "zipCode": "210213",
+      "id": "xARPI4_Aaqc",
+      "phone": "8650627791"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
