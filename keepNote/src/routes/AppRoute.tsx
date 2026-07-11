@@ -59,7 +59,8 @@ export default function AppRoutes({
               />}
             </Box>
               ):(
-              <AdvancedNoteSearch/>
+              <AdvancedNoteSearch onAddNote={onAddNote}
+                onDeleteNote={onDeleteNote}/>
               )}
             </ProtectedRoute>
             }

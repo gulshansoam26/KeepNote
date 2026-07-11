@@ -5,7 +5,13 @@ import ErrorMessage from "./ErrorMessage";
 import NoteManager from "../pages/noteManager/NoteManager";
 import { Box, Typography, TextField, Grid, Paper, MenuItem,Button } from "@mui/material";
 
-export default function AdvancedNoteSearch(){
+
+type AdvancedNoteSearchPrps ={
+
+  onAddNote:(note:Note)=>void;
+      onDeleteNote:(id:number)=>void;
+}
+export default function AdvancedNoteSearch({onAddNote,onDeleteNote}:AdvancedNoteSearchPrps){
     const [category, setCategory] = useState("");
   const [priority, setPriority] = useState<string>("");
   const [shouldSearch, setShouldSearch] = useState(false);
@@ -145,7 +151,8 @@ export default function AdvancedNoteSearch(){
       {shouldSearch && fetchedResults && !loading && (
         <Box>
           {Array.isArray(fetchedResults) ? (
-            <NoteManager notes={fetchedResults} />
+            <NoteManager notes={fetchedResults} onAddNote={onAddNote}
+                onDeleteNote={onDeleteNote} />
           ) : (
             <ErrorMessage message="We couldn’t load the search results. Please try again." />
           )}
