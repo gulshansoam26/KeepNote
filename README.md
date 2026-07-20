@@ -5,7 +5,13 @@ A modern note management application built using React, TypeScript and Material 
 ## 🎥 Demo Video
 
 ▶️ Watch Demo:
-https://github.com/user-attachments/assets/2970adf7-5048-416c-8ddf-23841c28333a
+
+
+https://github.com/user-attachments/assets/ee33674b-a3ff-4e77-97cb-8662e8725048
+
+
+
+
 
 ## ✨ Features
 
