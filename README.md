@@ -1,15 +1,24 @@
-#KeepNote
-A note management application built using React,Typscript and Material UI.
+# 📝 KeepNote
 
-##Demo
+A modern note management application built using React, TypeScript and Material UI.
+
+## 🎥 Demo Video
+
+▶️ Watch Demo:
 https://github.com/user-attachments/assets/2970adf7-5048-416c-8ddf-23841c28333a
 
+## ✨ Features
 
-https://github.com/user-attachments/assets/652296ae-1121-4f24-80c1-6e6acde315c7
+- User Authentication
+- Create Notes
+- Edit Notes
+- Delete Notes
+- Search Notes
+- Responsive UI
 
 ## Tech Stack
 -React
 -Typscript
 -Material UI
 -JSON Server
-
+-Vite
